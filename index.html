@@ -1,11 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thushar's student portfolio — 2nd Year AI & ML student at AJIET." />
+  <title>Thushar | AI & ML Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello World Thushar</h1>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">TH<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Thushar<span>.</span></h1>
+        <h2>AI & ML Student <span class="dot">•</span> Developer in Progress</h2>
+        <p class="hero-text">
+          I'm a 2nd year Artificial Intelligence & Machine Learning student at
+          AJIET, exploring software development, AI, data, and creative technology.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Let's Connect</a>
+        </div>
+        <div class="quick-info">
+          <span>📍 AJIET</span>
+          <span>🎓 2nd Year</span>
+          <span>🤖 AI & ML</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">T</div>
+        <div class="status"><span></span> Open to learning & opportunities</div>
+        <div class="card-line"></div>
+        <p>Currently learning</p>
+        <div class="chips">
+          <span>Python</span><span>Web Dev</span><span>Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 — ABOUT ME</p>
+        <h2>Building skills one project at a time.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="large-text">
+            I'm Thushar, a curious student passionate about technology and problem solving.
+            As an AI & ML student at AJIET, I'm developing a strong foundation in programming,
+            web development, data, and artificial intelligence.
+          </p>
+        </div>
+        <div class="about-details">
+          <div><span>College</span><strong>AJIET</strong></div>
+          <div><span>Year</span><strong>2nd Year</strong></div>
+          <div><span>Branch</span><strong>AI & Machine Learning</strong></div>
+          <div><span>Focus</span><strong>Development + AI</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>Tools I'm exploring.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">⌘</span>
+          <h3>Programming</h3>
+          <p>Python, C, Java and problem-solving fundamentals.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">◈</span>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript and responsive interface design.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">◎</span>
+          <h3>AI & Machine Learning</h3>
+          <p>Learning data analysis, ML concepts and practical AI applications.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">↗</span>
+          <h3>Currently Improving</h3>
+          <p>Git, GitHub, APIs, databases and building real-world projects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Things I'm building.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div>
+            <p class="project-tag">WEB DEVELOPMENT</p>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website to showcase my skills, projects and learning journey.</p>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div>
+            <p class="project-tag">AI / ML</p>
+            <h3>ML Mini Project</h3>
+            <p>A space for an upcoming machine-learning project built as part of my learning journey.</p>
+            <div class="tech"><span>Python</span><span>ML</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div>
+            <p class="project-tag">COLLEGE PROJECT</p>
+            <h3>Coming Soon</h3>
+            <p>More projects will be added here as I build, experiment and learn.</p>
+            <div class="tech"><span>Building</span><span>Learning</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">04 — EDUCATION</p>
+        <h2>My academic journey.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span>Current · 2nd Year</span>
+            <h3>AI & Machine Learning</h3>
+            <p>AJ Institute of Engineering and Technology (AJIET)</p>
+            <small>Building fundamentals in programming, artificial intelligence, machine learning and software development.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-box">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's build something.</h2>
+        <p>
+          Interested in collaborating, discussing a project, or just connecting?
+          Replace the placeholder details below with your real contact information.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Thushar. Built with curiosity & code.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
